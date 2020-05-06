@@ -3,7 +3,7 @@ from setuptools import setup, Extension
 module1 = Extension('pynuklearc',
                     sources = ['contrib/nuklear/nuklearGLFWOpenGL3.c'],
                     include_dirs = ['/usr/include',
-                                    'contrib/nuklear/'],
+                                    'contrib/nuklear'],
                     libraries = ['glfw'],
                     library_dirs = ['/usr/lib'],)
 
